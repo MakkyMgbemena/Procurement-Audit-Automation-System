@@ -10,6 +10,7 @@ Technical Stack
 LayerToolsData EngineeringPower Query (M), Python (Pandas)Analysis & LogicSQL (CASE statements, Risk Scoring), Excel (VLOOKUP, Variance Auditing)VisualizationPower BI, TableauWorkflow AutomationAsana, Monday.com
 
 Project Architecture: 3-Phase Roadmap
+
 Phase 1 — Data Transformation (Sanitization Layer)
 Problem: Raw data contained inconsistent product naming (e.g., iphone 15 vs iPhone 15) and unrealistic pricing units, making analysis unreliable.
 Solution: Built a Power Query Transformation Layer using TRIM, CLEAN, and conditional pricing logic to standardize inputs at the source. The result is a Refresh-Proof pipeline — new data entering the system is automatically standardized without manual intervention.
